@@ -12,10 +12,12 @@
 chmod +x run.sh
 
 Сборка и запуск генератора:
+
 ./run.sh build_generator
 ./run.sh run_generator
 
 Сборка и запуск аналитика:
+
 ./run.sh build_reporter
 ./run.sh run_reporter
 
