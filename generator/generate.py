@@ -5,12 +5,12 @@ import sys
 
 NUM_ROWS = 50
 
-COLUMNS = ["CLASS_ID", "TIME", "VISITORS", "ROOM"]
+COLUMNS = ["SCORE", "TIME", "VISITORS", "ROOM"]
 
 def generate_row():
 
     return {
-        "CLASS_ID": random.randint(0,100),
+        "SCORE": random.randint(0,100),
         "TIME": round(random.uniform(1.5, 9.9), 2),
         "VISITORS": random.randint(0,100),
         "ROOM": random.choice(["A", "B", "C"]),
